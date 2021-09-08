@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%),
+    linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 75px;
+    top: 57px;
+}
+
+header p{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+main div{
+    display: flex;
+}
+
+main p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+    color: #FFFFFF;
+    z-index: -1;
+}
+
+.garrafaCoca{
+    width: 201px;
+}
+
+.backgroundCoca {
+    position: relative;
+}
+
+.garrafaCoca {
+    position: absolute;
+    width: 201px;
+    height: 655px;
+    left: 819px;
+    top: 70px;
+}
+
+footer{
+    position: absolute;
+    left: 1560px;
+    top: 750px;
+}
