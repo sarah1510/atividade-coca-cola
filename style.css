@@ -13,7 +13,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 header{
@@ -32,24 +31,20 @@ header p{
     line-height: 19px;
 }
 
-main div{
-    display: flex;
-}
 
-main p{
+main h1{
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 44px;
-    text-align: right;
-    color: #FFFFFF;
-    z-index: -1;
+    position: absolute;
+    z-index: 1;
+    color: #FFFFFF;  
+    margin-left: 410px;
+    margin-top: 282px;
+    width: 200px;
 }
 
-.garrafaCoca{
-    width: 201px;
-}
 
 .backgroundCoca {
     position: relative;
@@ -68,3 +63,5 @@ footer{
     left: 1560px;
     top: 750px;
 }
+
+
